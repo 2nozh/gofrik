@@ -1,0 +1,6 @@
+WRMCB=function(e){var c=console;if(c&&c.log&&c.error){c.log('Error running batched script.');c.error(e);}}
+;
+try {
+/* module-key = 'com.refinedwiki.confluence.plugins.uitoolkit:ui-expand-resource', location = 'ui-expand-resource.e997558a443825a07f68.js' */
+(window.webpackJsonpRefinedToolkitWebPack=window.webpackJsonpRefinedToolkitWebPack||[]).push([["ui-expand-resource"],{464:function(e,o,n){"use strict";n.r(o);var i=n(3),a=n.n(i);window.ConfluenceMobile?void 0===window.RWUI&&(window.RWUI={}):(void 0===window.RWUI&&console.error("RWUI namespace was undefined, ensure that base.js has been loaded"),AJS.toInit((function(){!function(){var e=window.location.hash.substr(1);if(e){var o=a()("#rwui_"+e);o.length>0&&o.parent().addClass("rw_open rw_highlight"),RWUI.scrollToElementWithOffset(o,100)}}()}))),RWUI.toggleExpandItem=function(e,o){var n=a()(e).parent();n.toggleClass("rw_open"),n.removeClass("rw_active"),a()(".rwui_expandable_item.rw_highlight").removeClass("rw_highlight"),"undefined"!=typeof RWMI&&RWMI.mobileMode||window.ConfluenceMobile?(o.preventDefault(),o.stopPropagation()):window.location.hash=a()(e).data("hash")}}}]);
+}catch(e){WRMCB(e)};

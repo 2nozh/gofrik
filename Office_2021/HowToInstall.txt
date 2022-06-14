@@ -1,0 +1,11 @@
+Open cmd, copy and paste necessary command line and run installation
+
+Office 2021
+\\universe.dart.spb\dadfs\"Software Installers"\Microsoft\Office\Office_2021\Setup.exe /configure \\universe.dart.spb\dadfs\"Software Installers"\Microsoft\Office\Office_2021\Office2021ProPlus.xml
+
+Visio 2021 Professional
+\\universe.dart.spb\dadfs\"Software Installers"\Microsoft\Office\Office_2021\Setup.exe /configure \\universe.dart.spb\dadfs\"Software Installers"\Microsoft\Office\Office_2021\Visio2021Pro.xml
+
+Project 2021 Professional
+\\universe.dart.spb\dadfs\"Software Installers"\Microsoft\Office\Office_2021\Setup.exe /configure \\universe.dart.spb\dadfs\"Software Installers"\Microsoft\Office\Office_2021\Project2021Pro.xml
+

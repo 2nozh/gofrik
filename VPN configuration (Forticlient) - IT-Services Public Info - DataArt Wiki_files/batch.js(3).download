@@ -1,0 +1,6 @@
+WRMCB=function(e){var c=console;if(c&&c.log&&c.error){c.log('Error running batched script.');c.error(e);}}
+;
+try {
+/* module-key = 'com.refinedwiki.confluence.plugins.uitoolkit:toolkit-base', location = 'toolkit-base.8f3bbdd226f557b46f80.js' */
+(window.webpackJsonpRefinedToolkitWebPack=window.webpackJsonpRefinedToolkitWebPack||[]).push([["toolkit-base"],{137:function(o,i,n){"use strict";n.r(i);var t=n(3),e=n.n(t);void 0===window.RWUI&&(window.RWUI={}),void 0===window.RWUI.Models&&(window.RWUI.Models={}),void 0===window.RWUI.Collections&&(window.RWUI.Collections={}),void 0===window.RWUI.Views&&(window.RWUI.Views={}),RWUI.capitalizeFirstLetter=function(o){return o.charAt(0).toUpperCase()+o.slice(1)},RWUI.scrollToElementWithOffset=function(o,i){if(void 0!==o&&o.length>0&&o.offset()){var n=e()(window).scrollTop(),t=n+e()(window).height(),w=o.offset().top,d=w+o.height();(w<n||d>t)&&window.scroll(0,o.offset().top-i)}},AJS.toInit((function(){e()(".rwui_image_box.rwui_link").click((function(){location.href=e()(this).data("url")}))}))}}]);
+}catch(e){WRMCB(e)};

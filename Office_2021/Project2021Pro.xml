@@ -1,0 +1,24 @@
+<Configuration ID="4c59a7b1-d7f3-404a-952d-46180debbf6d">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
+    <Product ID="ProjectPro2021Volume" PIDKEY="FTNWT-C6WBT-8HMGF-K9PRX-QV9H8">
+      <Language ID="en-us" />
+      <Language ID="ru-ru" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI>
+    <IgnoreProduct ID="InfoPath" />
+    <IgnoreProduct ID="InfoPathR" />
+    <IgnoreProduct ID="SharePointDesigner" />
+    <IgnoreProduct ID="VisPro" />
+    <IgnoreProduct ID="VisStd" />
+  </RemoveMSI>
+  <AppSettings>
+    <Setup Name="Company" Value="DataArt Inc" />
+  </AppSettings>
+</Configuration>

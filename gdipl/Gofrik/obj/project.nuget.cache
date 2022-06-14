@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "J3vZAlJI7bgausGgLcsq/nIFDFovkF4kR4etRRJtd/8RPDz0Q6GMhy/u1GRHr5Il9ff2WX0/LQ2BReh2beoEMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aseslavinskaya\\source\\repos\\Gofrik\\Gofrik\\Gofrik.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aseslavinskaya\\.nuget\\packages\\metroframework\\1.2.0.3\\metroframework.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\aseslavinskaya\\.nuget\\packages\\metroframework.design\\1.2.0.3\\metroframework.design.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\aseslavinskaya\\.nuget\\packages\\metroframework.fonts\\1.2.0.3\\metroframework.fonts.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\aseslavinskaya\\.nuget\\packages\\metroframework.runtime\\1.2.0.3\\metroframework.runtime.1.2.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MetroFramework.Design 1.2.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MetroFramework.Design",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MetroFramework.Fonts 1.2.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MetroFramework.Fonts",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MetroFramework.RunTime 1.2.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MetroFramework.RunTime",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
